@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class ProductCategoryRow extends React.Component {
   render () {
@@ -11,6 +12,10 @@ class ProductCategoryRow extends React.Component {
       </tr>
     )
   }
+}
+
+ProductCategoryRow.propTypes = {
+  category: PropTypes.string
 }
 
 export default ProductCategoryRow

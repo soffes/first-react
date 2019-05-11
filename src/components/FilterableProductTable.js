@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import SearchBar from './SearchBar'
 import ProductTable from './ProductTable'
 
@@ -11,6 +12,10 @@ class FilterableProductTable extends React.Component {
       </div>
     )
   }
+}
+
+FilterableProductTable.propTypes = {
+  products: PropTypes.arrayOf(PropTypes.object)
 }
 
 export default FilterableProductTable

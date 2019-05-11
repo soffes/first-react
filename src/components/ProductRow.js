@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class ProductRow extends React.Component {
   render () {
@@ -16,6 +17,10 @@ class ProductRow extends React.Component {
       </tr>
     )
   }
+}
+
+ProductRow.propTypes = {
+  product: PropTypes.object
 }
 
 export default ProductRow

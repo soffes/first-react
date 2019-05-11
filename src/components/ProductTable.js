@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import ProductCategoryRow from './ProductCategoryRow'
 import ProductRow from './ProductRow'
 
@@ -35,6 +36,10 @@ class ProductTable extends React.Component {
       </table>
     )
   }
+}
+
+ProductTable.propTypes = {
+  products: PropTypes.arrayOf(PropTypes.object)
 }
 
 export default ProductTable
