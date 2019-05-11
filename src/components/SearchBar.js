@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 class SearchBar extends React.Component {
-  render() {
+  render () {
     return (
       <form>
         <input type="text" placeholder="Search..." />
@@ -11,8 +11,8 @@ class SearchBar extends React.Component {
           Only show products in stock
         </p>
       </form>
-    );
+    )
   }
 }
 
-export default SearchBar;
+export default SearchBar
