@@ -1,3 +1,9 @@
+# First React
+
+This is my first React app. It's just me recreating the [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) tutorial and trying to understand it all along the way. I added ESLint too and was diligent to read the errors, try to understand them, and then fix them.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
